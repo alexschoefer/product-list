@@ -4,11 +4,10 @@ import { RouterOutlet } from '@angular/router';
 
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [CommonModule, RouterOutlet], // Ensure Header is a standalone component or part of a module
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+    selector: 'app-root',
+    imports: [CommonModule, RouterOutlet], // Ensure Header is a standalone component or part of a module
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'product-list';
